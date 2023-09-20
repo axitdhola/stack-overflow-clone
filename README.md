@@ -14,6 +14,7 @@
 2. Layer2 : Service Layer(Business Logic)
 3. Layer3 : DAO Layer(For Database related oparations)
 4. Layer4 : Database Server
+5. Request goes from Layer1 to Layer4.
 
 # Exposed API
 1. http://localhost:8080/user/add   - POST   - To a add new user
@@ -25,6 +26,3 @@
 6. http://localhost:8080/answer/add  - POST - To add a new answer
 7. http://localhost:8080/answer/question/{id}  - GET - To get all answer belogs to a question
 8. http://localhost:8080/answer/user/{name} - GET - To get all answer given by a user
-
-
-
