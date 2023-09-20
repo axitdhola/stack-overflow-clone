@@ -21,6 +21,7 @@
 3. http://localhost:8080/question/{id}  - GET - To get a question by their Id
 4. http://localhost:8080/question/edit/{id} - PUT - To edit a question.
 5. http://localhost:8080/question/user/{name} - GET - To get all question belogs to a user
+6. http://localhost:8080/question/tag - POST - To get all question that contains given tag
 6. http://localhost:8080/answer/add  - POST - To add a new answer
 7. http://localhost:8080/answer/question/{id}  - GET - To get all answer belogs to a question
 8. http://localhost:8080/answer/user/{name} - GET - To get all answer given by a user
