@@ -24,8 +24,6 @@ public class Question {
 	private Userr user;
 	
 	
-	
-	
 	public List<Tag> getTag() {
 		return tag;
 	}

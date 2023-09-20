@@ -3,6 +3,7 @@ package com.project.clone.model;
 
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
@@ -12,7 +13,7 @@ public class Tag {
 	@Id
 	private String name;
 	
-	@ManyToMany
+	@ManyToMany(cascade = CascadeType.ALL)
 	List<Question> questions;
 
 	public List<Question> getQuestions() {
